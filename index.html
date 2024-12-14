@@ -10,13 +10,20 @@
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-  <div class="container even-columns">
-    <h2>Lado A</h2>
-    <h2>Lado B</h2>
-    <h2>Lado B</h2>
-    <h2>Lado B</h2>
-    <h2>Lado B</h2>
-    <h2>Lado B</h2>
+  <div class="flex gap-1">
+    <a href="#" class="btn-sm btn">Label</a>
+    <button href="#" class="btn btn-base">Label</button>
+    <button href="#" class="btn btn-lg">Label</button>
+  </div>
+
+  <div class="flex gap-1">
+    <a
+      aria-label="Label" 
+      href="#" class="btn-sm btn">
+    </a>
+
+    <button aria-label="Label" href="#" class="btn btn-base"></button>
+    <button aria-label="Label" href="#" class="btn btn-lg"></button>
   </div>
 </body>
 </html>
