@@ -36,7 +36,7 @@
   font-size: var(--fs-sm);
 }
 
-.btn-base {
+.btn-md {
   padding: .75rem 1.5rem;
   font-size: var(--fs-base);
 }
