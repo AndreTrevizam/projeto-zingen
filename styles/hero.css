@@ -6,13 +6,13 @@
   }
 
   & h1 {
-    margin: 1rem;
+    margin-top: 1rem;
   }
 
   & p {
-    font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans); 
+    font: var(--fw-md) var(--fs-lg) / 1.4 var(--ff-sans);
     color: var(--text-color-secondary);
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 
   & .buttons {
@@ -23,10 +23,11 @@
 
 @media (width >= 80em) {
   #hero {
-    background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain;
+    background: url(../assets/bg-hero-desktop.svg) no-repeat bottom
+      center/contain;
     padding-bottom: 15rem;
 
-    & img[scr*="music"] {
+    & img[src*='music'] {
       width: 25.75rem;
     }
 
@@ -39,9 +40,8 @@
       font-size: 2.5rem;
     }
 
-    & .buttons {
+    .buttons {
       margin-top: 3rem;
     }
   }
-
 }
